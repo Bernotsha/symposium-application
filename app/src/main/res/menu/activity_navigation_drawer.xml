@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/register"
+            android:title="REGISTER" />
+        <item
+            android:id="@+id/lsv"
+            android:icon="@drawable/notificationicon"
+            android:title="NOTIFICATION">
+
+        </item>
+        <item android:title="WORKSHOPS">
+            <menu>
+                <item
+                    android:id="@+id/nml"
+                    android:icon="@drawable/events"
+                    android:title="ML USING PYTHON"
+                    />
+                <item
+                    android:id="@+id/nandroid"
+                    android:title="AUGMENTED REALITY IN ANDROID"
+                    android:icon="@drawable/events"
+                    />
+
+            </menu>
+
+
+        </item>
+        <item android:title="EVENTS CATALOG">
+            <menu>
+
+
+        <item
+            android:id="@+id/catalog"
+            android:icon="@drawable/events"
+            android:title="LUNCH"
+
+            />
+        <item
+            android:id="@+id/ignite"
+            android:icon="@drawable/events"
+            android:title="IGNITE" />
+
+        <item
+            android:id="@+id/nkahoot"
+            android:icon="@drawable/events"
+            android:title="KAHOOT" />
+                <item
+                    android:id="@+id/ncoding"
+                    android:icon="@drawable/events"
+                    android:title="CODING" />
+                <item
+                    android:id="@+id/nshortfilm"
+                    android:icon="@drawable/events"
+                    android:title="SHORT FILM" />
+        <item
+            android:id="@+id/nspoterror"
+            android:title="SPOT ERROR"
+            android:icon="@drawable/events"/>
+                <item
+                    android:id="@+id/nblindcoding"
+                    android:title="BLIND CODING"
+                    android:icon="@drawable/events"/>
+                <item
+                    android:id="@+id/nphotography"
+                    android:title="PHOTOGRPHY"
+                    android:icon="@drawable/events"/>
+                <item
+                    android:id="@+id/nhuntem"
+                    android:title="HUNT EM UP"
+                    android:icon="@drawable/events"/>
+                <item
+                    android:id="@+id/nsql"
+                    android:title="SQL QUERY"
+                    android:icon="@drawable/events"/>
+                <item
+                    android:id="@+id/npaper"
+                    android:title="PAPER PRESENTATION"
+                    android:icon="@drawable/events"/>
+
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/office"
+                android:icon="@drawable/officeuseicon"
+                android:title="OFFICE USE ONLY" />
+            <item
+                android:id="@+id/nshare"
+                android:icon="@drawable/ic_menu_send"
+                android:title="SHARE" />
+            <item
+                android:id="@+id/call"
+                android:icon="@drawable/callicon"
+                android:title="CALL FOR HELP" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Registered"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#E21717"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EVENTS"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#E21717"/>
+    <TextView
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/idno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_marginLeft="20sp"
+        android:id="@+id/tname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_marginLeft="20sp"
+        android:id="@+id/tmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_marginLeft="20sp"
+        android:id="@+id/tcollege"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_marginLeft="20sp"
+        android:id="@+id/tdepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_marginLeft="20sp"
+        android:id="@+id/temail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/onereg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E1FAF4"
+        android:text="OK" />
+
+
+
+</LinearLayout>

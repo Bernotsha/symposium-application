@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FDFBF0"
+    android:layout_height="match_parent"
+    tools:context=".lunch">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BEDBE7">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="74dp"
+                android:id="@+id/lunchhome"
+                android:layout_height="50dp"
+                android:background="#BEDBE7"
+                android:src="@drawable/home"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:layout_marginLeft="20sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="120dp">
+            <ImageView
+                android:id="@+id/lunchbefore"
+                android:layout_width="74dp"
+                android:layout_height="50dp"
+                android:src="@drawable/before"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Previous"
+                android:layout_marginLeft="20sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="250dp">
+            <ImageView
+                android:id="@+id/lunchafter"
+                android:layout_width="74dp"
+                android:layout_height="50dp"
+                android:src="@drawable/after"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="Next"
+                android:layout_marginLeft="20sp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="110dp">
+            <com.antonionicolaspina.revealtextview.RevealTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="LUNCH"
+                android:textSize="40sp"
+                android:background="#FDFBF0"
+                app:rtv_duration="2000"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FCD3D3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="180dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:src="@drawable/curdricelogo"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:text="CURD RICE"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FCD3D3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="400dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sam"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:text="SAMBAR RICE"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FCD3D3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="600dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vegbriyanilogo"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:text="VEG BRIYANI"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FCD3D3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="850dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/chapathilogo"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:text="CHAPATHI"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FCD3D3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="1060dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gopilogo"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:text="GOBI MANCHURIAN"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FCD3D3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="1310dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ras"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:text="RASGULLA"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FCD3D3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="1640dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/naan"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:text="NAAN"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FCD3D3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="1950dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ice"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:text="ICE CREAM"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

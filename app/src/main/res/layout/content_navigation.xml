@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Navigation"
+    tools:showIn="@layout/app_bar_navigation">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sonalabel1"
+        android:id="@+id/berna"/>
+        <com.tomer.fadingtextview.FadingTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            app:timeout="150"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            app:texts="@array/example"/>
+        <com.skydoves.medal.MedalLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:turn="1"
+            app:speed="1000"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:id="@+id/medal"
+                android:layout_width="153dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/medal" />
+        </com.skydoves.medal.MedalLayout>
+
+        <yanzhikai.textpath.AsyncTextPathView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:duration="2700"
+            app:paintStrokeColor="#A7DEF7"
+            app:autoStart="true"
+            app:showPainter="true"
+            android:background="#F5E4DF"
+            app:pathStrokeColor="#000000"
+            app:text="SONA COLLEGE OF TECHNOLOGY"
+            app:textInCenter="true"
+            app:textSize="20dp"/>
+        <ImageView
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/teachers"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:gravity="start"
+        android:text="proudly presents"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <yanzhikai.textpath.AsyncTextPathView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:showPainter="true"
+        app:autoStart="true"
+        app:textInCenter="true"
+        app:textSize="20sp"
+        app:pathStrokeColor="#000000"
+        app:text="----PORT-2020----"
+        app:repeat="RESTART"
+        app:duration="2000"
+        android:gravity="start"
+       android:textStyle="bold"
+        android:textAlignment="center"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:gravity="start"
+        android:text="(National level Technical symposiym)"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:gravity="start"
+        android:text="Date: 31/02/2020 and 01/02/2020"
+        android:textAlignment="textStart"
+        android:textSize="20sp" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textStyle="normal"
+            android:text="Events fee:200"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textStyle="normal"
+            android:text="Workshop fee:250"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:gravity="start"
+            android:text="Paper submission last date:JAN 27"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="#EE1F1F"
+            android:textStyle="bold"
+            android:background="#ffffff"
+            android:text="For Registration Click Navigation Bar in Top"/>
+
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:text="Chair person: Mr. J. Ashif"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+
+            android:background="#ffffff"
+            android:text="Secretary: Mr. J. Jeyadheepan"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+</RelativeLayout>

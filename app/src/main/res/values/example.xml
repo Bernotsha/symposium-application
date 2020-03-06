@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="example">
+        <item>Sona welcomes you</item>
+        <item>India\'s No1 Institution</item>
+        <item>Welcome to PORT-2020</item>
+
+    </string-array>
+</resources>
